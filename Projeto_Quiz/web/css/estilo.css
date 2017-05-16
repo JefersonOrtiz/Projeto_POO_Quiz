@@ -1,0 +1,48 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 15/05/2017, 10:45:06
+    Author     : Jeferson
+*/
+div#interface {
+    width: 900px;
+    background-color: #ffffff;
+    margin:0px 10px 50px 250px;
+    box-shadow: 5px 5px 20px rgba(0,0,0,.5);
+    padding: 190px;
+}
+navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    
+    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+row.content {height: 450px}
+    
+    /* Set gray background color and 100% height */
+sidenav {
+      padding-top: 20px;
+      background-color: #f1f1f1;
+      height: 100%;
+    }
+    
+    /* Set black background color, white text and some padding */
+footer {
+      margin-bottom: 0;
+      border-radius: 0;
+      background-color: #555;
+      color: white;
+      padding: 15px;
+    }
+    
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width: 767px) {
+      sidenav {
+        height: auto;
+        padding: 15px;
+      }
+    row.content {height:auto;} 
+    }
