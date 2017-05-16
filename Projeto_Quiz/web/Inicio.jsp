@@ -29,16 +29,16 @@
   <div class="col-md-1 column">
   </div>
   <div class="col-md-10 column">
-	<p class="lead">Completo al 40%</p>
+	<p class="lead">Completo 40%</p>
     <div class="progress">
       <div class="progress-bar" role="progressbar" style="width: 40%;">
-        <span class="sr-only">Completo al 40%</span>
+        <span class="sr-only">Completo 40%</span>
       </div>
     </div>
     <div class="panel panel-primary">
       <div class="panel-heading">
         <h3 class="panel-title">
-						Domanda
+						Quiz
 					</h3>
       </div>
       <div class="panel-body">
