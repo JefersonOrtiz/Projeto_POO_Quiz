@@ -1,6 +1,7 @@
 package br.com.fatecpg.quiz;
 
 import java.util.ArrayList;
+import java.util.Collections;
 
 public class Quiz {
     private static int testCount = 0;
@@ -30,6 +31,7 @@ public class Quiz {
             ("O que é que, conforme diz o ditado, nasce para todos?", "Sol", new String[]{"Bebê","Eclipse","Sol","Outro"});
             test.add(q5);
         }
+        Collections.shuffle(test);
         return test;
     }
     
