@@ -13,6 +13,7 @@
         <%@include file="WEB-INF/jspf/menu.jspf"%>
     </head>
     <body>
+        <div id="interface">
         <h1>WebQUiz</h1>
         <h2>Índice</h2>
         <hr/>
@@ -24,5 +25,6 @@
         <a href="test.jsp">
             <button>Iniciar Teste</button>
         </a>
+        </div>
     </body>
 </html>

@@ -7,6 +7,20 @@ and open the template in the editor.
     Created on : 15/05/2017, 21:50:19
     Author     : Jeferson
 */
+h1 {
+    text-align: center;
+}
+h2 {
+    text-align: center;
+}
+div#interface {
+    width: 900px;
+    background-color: #ffffff;
+    margin:100px 10px 50px 250px;
+    box-shadow: 5px 5px 20px rgba(0,0,0,.5);
+    padding: 20px;
+}
+
 navbar {
       margin-bottom: 0;
       border-radius: 0;
