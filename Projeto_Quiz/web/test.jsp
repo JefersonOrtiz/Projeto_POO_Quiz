@@ -10,7 +10,12 @@
             request.getParameter("1"),
             request.getParameter("2"),
             request.getParameter("3"),
-            request.getParameter("4")
+            request.getParameter("4"),
+            request.getParameter("5"),
+            request.getParameter("6"),
+            request.getParameter("7"),
+            request.getParameter("8"),
+            request.getParameter("9"),
         });
         response.sendRedirect("index.jsp");
     }

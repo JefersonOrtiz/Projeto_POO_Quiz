@@ -15,17 +15,19 @@
     <body>
         <nav>
             <ul>
+                <li><b>Integrantes:</b></li>
+                
                 <li><b>Daniel Alves</b></li>
                 <li><b>Jeferson Ortiz</b></li>
             </ul>
         </nav>
         <div id="interface">
-            <h1>WebQUiz</h1>
+            <h1>Web Quiz</h1>
             <h2>Índice</h2>
             <hr/>
             <h3>Última nota:</h3>
             <%= 100.0*Quiz.getLastGrade()%>%
-            <h3>Média</h3>
+            <h3>Média:</h3>
             <%= 100.0*Quiz.getGradeAverage()%>%
             <hr/>
                 <a href="test.jsp">
