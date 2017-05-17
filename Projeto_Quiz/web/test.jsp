@@ -39,7 +39,7 @@
     <div class="panel panel-primary">
       <div class="panel-heading">
         <h3 class="panel-title">
-						Quiz
+						Quiz:Conhecimento Gerais e Atualidades
 					</h3>
       </div>
       <div class="panel-body">

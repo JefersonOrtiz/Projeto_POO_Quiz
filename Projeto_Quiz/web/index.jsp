@@ -16,7 +16,7 @@
         <nav>
             <ul>
                 <li><b>Integrantes:</b></li>
-                
+                <br/>
                 <li><b>Daniel Alves</b></li>
                 <li><b>Jeferson Ortiz</b></li>
             </ul>
