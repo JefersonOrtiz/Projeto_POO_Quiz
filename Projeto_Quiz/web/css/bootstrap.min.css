@@ -7,17 +7,27 @@ and open the template in the editor.
     Created on : 15/05/2017, 21:50:19
     Author     : Jeferson
 */
+body {
+    background-color: gainsboro;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: 30px;
+}
 h1 {
     text-align: center;
+    
 }
 h2 {
     text-align: center;
+    
 }
 div#interface {
     width: 900px;
     background-color: #ffffff;
-    margin:100px 10px 50px 250px;
-    box-shadow: 5px 5px 20px rgba(0,0,0,.5);
+    margin:20px 10px 50px 220px;
+    box-shadow: 20px 20px 20px rgba(0,0,0,.5);
     padding: 20px;
 }
 

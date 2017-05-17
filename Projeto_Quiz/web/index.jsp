@@ -13,18 +13,24 @@
         <%@include file="WEB-INF/jspf/menu.jspf"%>
     </head>
     <body>
+        <nav>
+            <ul>
+                <li><b>Daniel Alves</b></li>
+                <li><b>Jeferson Ortiz</b></li>
+            </ul>
+        </nav>
         <div id="interface">
-        <h1>WebQUiz</h1>
-        <h2>Índice</h2>
-        <hr/>
-        <h3>Última nota:</h3>
-        <%= 100.0*Quiz.getLastGrade()%>%
-        <h3>Média</h3>
-        <%= 100.0*Quiz.getGradeAverage()%>%
-        <hr/>
-        <a href="test.jsp">
-            <button>Iniciar Teste</button>
-        </a>
+            <h1>WebQUiz</h1>
+            <h2>Índice</h2>
+            <hr/>
+            <h3>Última nota:</h3>
+            <%= 100.0*Quiz.getLastGrade()%>%
+            <h3>Média</h3>
+            <%= 100.0*Quiz.getGradeAverage()%>%
+            <hr/>
+                <a href="test.jsp">
+                <button>Iniciar Teste</button>
+                </a>
         </div>
     </body>
 </html>
